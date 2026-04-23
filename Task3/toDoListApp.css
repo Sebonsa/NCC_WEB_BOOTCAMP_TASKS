@@ -1,0 +1,47 @@
+.form {
+    margin: 17px;
+    padding: 15px;
+
+}
+.input {
+    margin: 11px;
+    padding: 9px;
+    width: 80%;
+}
+.button {
+    padding: 9px;
+    background-color: green;
+    width: 10%;
+}
+.button:hover {
+    cursor: pointer;
+}
+
+.li {
+    display: flex;             
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    width: 100%;  
+    cursor: pointer;     
+    
+}
+
+
+.delete-btn {
+    background-color: red; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;        
+    border-radius: 4px;
+    cursor: pointer;         
+    font-size: 12px;
+
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
